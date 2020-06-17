@@ -1,0 +1,8 @@
+{
+  "include": ["**/*.*"],
+  "compilerOptions": {
+    "allowJs": true,
+    "baseUrl": "./node_modules",
+    "types": ["cypress", "node", "cucumber"]
+  }
+}

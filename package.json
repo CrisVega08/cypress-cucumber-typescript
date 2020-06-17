@@ -1,0 +1,23 @@
+{
+  "name": "cypress-cucumber-typescript-example",
+  "version": "1.0.0",
+  "description": "Example of how to use Cypress with Cucumber and TypeScript",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress run"
+  },
+  "author": "CrisVega",
+  "license": "ISC",
+  "dependencies": {
+    "cypress-cucumber-preprocessor": "^2.5.0"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true
+  },
+  "devDependencies": {
+    "@types/node": "^14.0.13",
+    "cypress": "^4.8.0",
+    "tsify": "^4.0.2",
+    "typescript": "^3.9.5"
+  }
+}
